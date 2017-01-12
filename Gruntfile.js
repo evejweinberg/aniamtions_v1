@@ -1,4 +1,6 @@
 module.exports = function(grunt){
+	grunt.loadNpmTasks('autoprefixer')
+
 	grunt.initConfig({
 		pkg: grunt.file.readJSON('package.json'),
 		postcss: {
@@ -13,6 +15,7 @@ module.exports = function(grunt){
 				}
 		}
 	});
+
 
 	grunt.registerTask('default', ['postcss:dist']);
 };

@@ -1,12 +1,25 @@
 {
-	"name" : "Project Name",
-	"version" : "version number",
-	"author" : "Your Name",
-	"private" : true,
-
-
-	"devDependencies" : {
-		"grunt" : "~0.4.0",
-		"autoprefixer": ""
-	}
+  "name": "aniamtions_v1",
+  "version": "1.0.0",
+  "description": "none",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evejweinberg/aniamtions_v1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evejweinberg/aniamtions_v1/issues"
+  },
+  "homepage": "https://github.com/evejweinberg/aniamtions_v1#readme",
+  "devDependencies": {
+    "grunt": "~0.4.0"
+  },
+  "dependencies": {
+    "autoprefixer": "^6.6.1"
+  }
 }
