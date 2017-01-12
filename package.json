@@ -1,0 +1,12 @@
+{
+	"name" : "Project Name",
+	"version" : "version number",
+	"author" : "Your Name",
+	"private" : true,
+
+
+	"devDependencies" : {
+		"grunt" : "~0.4.0",
+		"autoprefixer": ""
+	}
+}
