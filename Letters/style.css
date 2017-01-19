@@ -1,0 +1,24 @@
+$duration: 7s
+$length: 705px
+
+#H
+  /*length of line
+  stroke-dasharray: $length
+
+  /*offset start position to the left
+  stroke-dashoffset: $length
+  animation: offsetStrokes $duration ease-in-out forwards infinite
+
+#H2
+  /*length of line
+  stroke-dasharray: $length
+
+  /*offset start position to the left
+  stroke-dashoffset: $length
+  animation: offsetStrokes $duration 0.5s ease-in-out forwards infinite
+
+#H > *
+  stroke: red
+
+#H2 > *
+  stroke: pink
