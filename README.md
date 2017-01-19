@@ -1,1 +1,3 @@
-# aniamtions_v1
+# animations_v1
+
+#1) FONT
